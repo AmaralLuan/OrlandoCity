@@ -1,0 +1,422 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+}
+
+body{
+
+font-family: 'Lato', 'Arial', sans-serif;
+font-size: 20px;
+
+}
+
+
+/*------------------------------------------*/
+/*                 HEADER                   */
+/*------------------------------------------*/
+
+header {
+
+	width: 100%;
+	height: 150px;
+	background-color: #5e299a;
+	z-index: 2;
+	position: relative;
+	
+}
+
+header .container {
+	position: relative;
+
+
+}
+
+/*---------REUSABLE COMPONENTS-------------*/
+
+
+/*------COLORS-------*/
+MAIN COLOR: #5e299a
+/*-------------------*/
+
+
+@font-face {
+	font-family: 'Arial';
+	font-size: 1em;
+
+}
+
+
+
+/*-----------BLACK CONTAINER---------------*/
+
+header .header-black {
+	background-color: #000;
+	height: 40px;
+}
+
+header .header-black li{
+	background-image: url("../img/clubs.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	margin: 4px 4px;
+}
+
+header .header-black li.club-01 {
+	background-position: 0px 0px;
+
+}
+
+header .header-black li.club-02 {
+	background-position: -48px 0px;
+
+}
+
+header .header-black li.club-03 {
+	background-position: -96px 0px;
+
+}
+
+header .header-black li.club-04 {
+	background-position: -140px 0px;
+
+}
+
+header .header-black li.club-05 {
+	background-position: -192px 0px;
+
+}
+
+header .header-black li.club-06 {
+	background-position: -240px 0px;
+
+}
+
+header .header-black li.club-07 {
+	background-position: -288px 0px;
+
+}
+
+header .header-black li.club-08 {
+	background-position: -332px 0px;
+
+}
+
+header .header-black li.club-09 {
+	background-position: -376px 0px;
+
+}
+
+header .header-black li.club-10 {
+	background-position: -429px 0px;
+
+}
+
+header .header-black li.club-11 {
+	background-position: -480px 0px;
+
+}
+
+header .header-black li.club-12 {
+	background-position: -528px 0px;
+
+}
+
+header .header-black li.club-13 {
+	background-position: -576px 0px;
+
+}
+
+header .header-black li.club-14 {
+	background-position: -624px 0px;
+
+}
+
+header .header-black li.club-15 {
+	background-position: -670px 0px;
+
+}
+
+header .header-black li.club-16 {
+	background-position: -713px 0px;
+
+}
+
+header .header-black li.club-17 {
+	background-position: -761px 0px;
+
+}
+
+header .header-black li.club-18 {
+	background-position: -809px 0px;
+
+}
+
+header .header-black li.club-19 {
+	background-position: -857px 0px;
+
+}
+
+header .header-black li.club-20 {
+	background-position: -905px 0px;
+
+}
+
+header .header-black li a {
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+
+/*-------------MAIN NAV-----------------*/
+
+header #logotipo {
+	position: absolute;
+	top: 20px;
+
+}
+
+
+
+#menu ul{
+	position: absolute;
+	right: 0;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 25px;
+	
+}
+
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+
+
+}
+
+#menu ul li a:link,
+#menu ul li a:visited{
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.search-bar {
+	background-color: #431675;
+	border: none;
+	padding: 0px 5px;
+	margin-right: 5px;
+	border-radius: 4px;
+}
+
+.search-bar::-webkit-input-placeholder {
+	color: #fff;
+	font-weight: 300;
+}
+
+.icon-search-button {
+	border-radius: 2px;
+	background: none;
+	border: none;
+	color: #fff;
+	position: absolute;
+	right: 16px;
+}
+
+ion-icon.busca {
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/*------------------------------------------*/
+/*             HOME SECTION                 */
+/*------------------------------------------*/
+
+/*-------MAIN---------*/
+
+#banner {
+	width: 100%;
+	height: 728px;
+	position: relative;
+	background: url("../img/banner.jpg") no-repeat;
+	top: -100px;
+}
+
+#banner h1{
+	position: relative;
+	top: 300px;
+	font-size: 92px;
+	color: #fff;
+	margin-left: 40px;
+	text-shadow: 2px 2px 2px rgba(0, 0 , 0, 0.45);
+
+}
+
+#banner h2{
+	color: #fff;
+	position: relative;
+	top: 300px;
+	margin:10px 0px 0px 50px;
+	text-shadow: 2px 2px 2px rgba(0, 0 , 0, 0.45);
+	font-weight: 300;
+}
+
+/*-----NEWS-----*/
+
+
+#news h2{
+	color: #5e2799;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#news hr {
+	border: #fde192 solid 4px;
+	width: 200px;
+	margin:0 auto;
+
+}
+
+#news .thumbs {
+	margin-top: 30px;
+}
+
+#news .thumbs h3 {
+	color: #5e299a;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+#news .thumbs time {
+	color: #a7a7a7;
+
+}
+
+/*------STATISTICS------*/
+
+#statistics {
+	width: 100%;
+	height: 200px;
+	background-color: #5e299a;
+	position: relative;
+	top: 100px; 
+}
+
+#statistics p {
+	color: #fde192;
+	font-weight: 300;
+	font-size: 64px;
+	text-align: center;
+	margin-top: 35px;
+}
+
+#statistics small{
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+/*------CALL TO ACTION------*/
+
+#call-to-action {
+
+	position: relative;
+	top: 200px; 
+
+}
+
+#call-to-action .title {
+	display: block;
+}
+
+#call-to-action h2{
+	color: #5e2799;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+#call-to-action hr {
+	border: #fde192 solid 4px;
+	width: 200px;
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 40px;
+	
+}
+
+#call-to-action p {
+	color: #656565;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#call-to-action .btn-roxo {
+	background-color: #5e2799;
+	color: #fff;
+	border: 0;
+	padding: 10px 60px;
+	position: relative;
+	left: 210px;
+	border-radius: 2px;
+
+}
+
+#call-to-action .btn-amarelo {
+	background-color: #ebd55b;
+	color: #000;
+	border: 0;
+	padding: 10px 60px;
+	position: relative;
+	left: 150px;
+	border-radius: 2px;
+
+}
+
+/*------------------------------------------*/
+/*                 FOOTER                   */
+/*------------------------------------------*/
+footer {
+	position: relative;
+	top: 320px;
+}
+
+
+footer .row{
+	width: 100%;
+}
+
+footer .row-grey {
+	width: 100%;
+	height: 200px;
+	background-color: #171f26;
+}
+
+footer .row-black {
+	width: 100%;
+	height: 60px;
+	background-color: #1b1b1c;
+	border-top: #252526 1px solid;
+}
+
+footer .text-cinza {
+	margin: 13px 0px;
+	color: #424242;
+}
+
+
+
+
