@@ -418,5 +418,100 @@ footer .text-cinza {
 }
 
 
+footer .col-red {
+	border: red 2px solid;
+	height: 200px;
+}
+
+footer .col-yellow {
+	border: yellow 2px solid;
+	height: 200px;
+}
+
+footer .logotipo {
+	margin-top: 20px;
+}
+
+footer .col-popular,
+footer .col-links,
+footer .col-get-in-touch {
+	margin-top: 15px;
+}
+
+footer .row-cols h4{
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid #242d37;
+	text-transform: uppercase;
+}
+
+footer .row-cols ul {
+	list-style: none;
+}
+
+footer .row-cols ul li{
+	margin-bottom: 15px;
+}
+
+footer .row-cols h5 {
+	color: #666;
+	font-family: 'Arial';
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+footer .row-cols time {
+	color: #fde092;
+	font-family: 'Arial';
+	font-size: 14px;
+}
+
+footer .col-links ul li {
+	margin-bottom: 5px;
+
+}
+
+footer .col-links ul li a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+footer .col-links ul li a:link,
+footer .col-links ul li a:visited,{
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+footer .col-get-in-touch {
+	font-size: 16px;
+	color: #fff;
+}
+
+footer .col-get-in-touch a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+footer .social-network li{
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+footer .social-network li ion-icon{
+	font-size: 25px;
+
+}
+
+
+
+
+
+
+
 
 
